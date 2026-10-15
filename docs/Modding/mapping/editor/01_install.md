@@ -99,11 +99,10 @@ Whenever you open or save a map, MRVN will open a file browser here.
 
 All the other folders will contain assets for **MRVN**.
 The formats & requirements are different to Northstar.
-We'll come back to this in [Using Assets](./04_rpak_assets.md)
 
 !!! tip
     You can download some assets to get started from [MRVN-Resource-Pack](https://github.com/MRVN-Radiant/MRVN-Resource-Pack/releases/latest)
 
 
 ## Next Time...
-[Making a map in MRVN-Radiant](./02_first_map.md)
+Learn about basic [Mapping Concepts](./02_concepts.md).
