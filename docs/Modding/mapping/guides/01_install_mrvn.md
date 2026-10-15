@@ -7,7 +7,10 @@
 ### Discord
 If you're in the Northstar Discord, there's a copy of MRVN in `#maps-chat` pins
 
-![](../../../_static/mapping/MRVN_download_Discord.png)
+<img
+  src="/_static/mapping/MRVN_download_Discord.png"
+  alt="Northstar Discord maps-chat pins"
+/>
 
 !!! warning
     The current pinned version is extremely outdated (from 2024!)
@@ -15,10 +18,13 @@ If you're in the Northstar Discord, there's a copy of MRVN in `#maps-chat` pins
 ### GitHub Actions
 Alternatively, download from [GitHub Actions](https://github.com/MRVN-Radiant/MRVN-Radiant/actions)
 
-![](../../../_static/mapping/MRVN_download_GitHub.png)
+<img
+  src="/_static/mapping/MRVN_download_GitHub.png"
+  alt="GitHub Actions download page for MRVN-Radiant"
+/>
 
 !!! note
-    Download links may not be available if you aren't logged in **or** the build is old
+    Download links may not be available if you aren't logged in or the build is too old
 
 
 ## Unzip & Run
@@ -32,15 +38,71 @@ Run `radiant.exe` (just `radiant` for Linux users)
 > TODO: can't actually replicate this on my machine (LMDE 7): "missing shared libraries"
 
 
-## Game Folders
-When MRVN first starts up you will be presented with a splash screen
+## Setting up folders
+When MRVN first starts up you will be presented with a splash screen:
 
-> TODO: screenshot
+<img
+  src="/_static/mapping/MRVN_splash.png"
+  alt="MRVN-Radiant's Splash Screen dialog"
+/>
 
-> TODO: basic setup walkthrough
+!!! note
+    The first time you start up MRVN will ask for an engine path.
+    Further down we'll explain how to change this path.
 
-> TODO: folder structure (PR 158 touches on this)
-... we'll come back to this in [Using Assets](./04_rpak_assets.md)
+Once you get past the splash screen, you'll be greeted with a new, empty map:
+
+<img
+  src="/_static/mapping/MRVN_new_map.png"
+  alt="any empty map in MRVN-Radiant"
+/>
+
+Now we're going to set the engine path, go into `Edit > Preferences`:
+
+<img
+  src="/_static/mapping/MRVN_edit_preferences.png"
+  alt="MRVN-Radiant's Edit menu, with Preferences selected"
+/>
+
+Select the `Game > Paths` tab on the left to reach this menu:
+
+<img
+  src="/_static/mapping/MRVN_engine_path.png"
+  alt="The Game Paths tab in MRVN's Preferences menu, cursor hovering over Engine Path"
+/>
+
+Click on the file icon for `Engine Path` to open a file browser.
+From here you'll pick a folder to keep you project files in.
+
+!!! note
+    `Engine Path` will create subfolders for each game MRVN-Radiant supports.
+    But MRVN should only create them when you pick a different game on startup.
+
+Your `Engine Path` will contain these folders:
+
+<img
+  src="/_static/mapping/engine_path_contents.png"
+  alt="A file browser open on 'MRVN-Radiant_games/', it contains 'Titanfall2/'"
+/>
+
+### Game Folder layout
+```
+Titanfall2/
+|-- maps/
+|-- models/
+|-- shaders/
+|-- textures/
+```
+
+Inside each game folder MRVN will create a `maps/` folder.
+Whenever you open or save a map, MRVN will open a file browser here.
+
+All the other folders will contain assets for **MRVN**.
+The formats & requirements are different to Northstar.
+We'll come back to this in [Using Assets](./04_rpak_assets.md)
+
+!!! tip
+    You can download some assets to get started from [MRVN-Resource-Pack](https://github.com/MRVN-Radiant/MRVN-Resource-Pack/releases/latest)
 
 
 ## Next Time...
