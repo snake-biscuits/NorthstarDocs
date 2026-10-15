@@ -11,15 +11,19 @@
  2. [Making a map in MRVN-Radiant](./guides/02_first_map.md)
  3. [Custom Maps Mod](./guides/03_map_mod.md)
  4. [Using Assets](./guides/04_rpak_assets.md)
-<!-- see PRs 7 (rpak loading) & 158 (MRVN textures)-->
+
+<!--
+TODO:
+ * load screen (vmt & vtf?)
+ * localisation (map name)
+ * map scripts (skyshow, gamemodes, rson)
+ * navmeshes (ReMap)
+ * playlists (adding to map lists)
+ * spawnpoints (spawn.nut, retail examples)
+-->
 
 
 <!-- TODO:
-## Limitations
-MRVN is very WIP atm & needs a lot of work
-Lots of plans, but notes are scattered
-
-
 ## Showcase
 Screenshots and video of what mappers have achieved so far
 Thunderstore links included for released mods
