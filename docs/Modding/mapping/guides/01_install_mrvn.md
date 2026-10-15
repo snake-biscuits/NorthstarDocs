@@ -8,7 +8,7 @@
 If you're in the Northstar Discord, there's a copy of MRVN in `#maps-chat` pins
 
 <img
-  src="/_static/mapping/MRVN_download_Discord.png"
+  src="/_static/mapping/MRVN_download_Discord.webp"
   alt="Northstar Discord maps-chat pins"
 />
 
@@ -19,7 +19,7 @@ If you're in the Northstar Discord, there's a copy of MRVN in `#maps-chat` pins
 Alternatively, download from [GitHub Actions](https://github.com/MRVN-Radiant/MRVN-Radiant/actions)
 
 <img
-  src="/_static/mapping/MRVN_download_GitHub.png"
+  src="/_static/mapping/MRVN_download_GitHub.webp"
   alt="GitHub Actions download page for MRVN-Radiant"
 />
 
@@ -42,7 +42,7 @@ Run `radiant.exe` (just `radiant` for Linux users)
 When MRVN first starts up you will be presented with a splash screen:
 
 <img
-  src="/_static/mapping/MRVN_splash.png"
+  src="/_static/mapping/MRVN_splash.webp"
   alt="MRVN-Radiant's Splash Screen dialog"
 />
 
@@ -53,21 +53,21 @@ When MRVN first starts up you will be presented with a splash screen:
 Once you get past the splash screen, you'll be greeted with a new, empty map:
 
 <img
-  src="/_static/mapping/MRVN_new_map.png"
+  src="/_static/mapping/MRVN_new_map.webp"
   alt="any empty map in MRVN-Radiant"
 />
 
 Now we're going to set the engine path, go into `Edit > Preferences`:
 
 <img
-  src="/_static/mapping/MRVN_edit_preferences.png"
+  src="/_static/mapping/MRVN_edit_preferences.webp"
   alt="MRVN-Radiant's Edit menu, with Preferences selected"
 />
 
 Select the `Game > Paths` tab on the left to reach this menu:
 
 <img
-  src="/_static/mapping/MRVN_engine_path.png"
+  src="/_static/mapping/MRVN_engine_path.webp"
   alt="The Game Paths tab in MRVN's Preferences menu, cursor hovering over Engine Path"
 />
 
@@ -81,7 +81,7 @@ From here you'll pick a folder to keep you project files in.
 Your `Engine Path` will contain these folders:
 
 <img
-  src="/_static/mapping/engine_path_contents.png"
+  src="/_static/mapping/engine_path_contents.webp"
   alt="A file browser open on 'MRVN-Radiant_games/', it contains 'Titanfall2/'"
 />
 
